@@ -1,8 +1,10 @@
-# laya-zh — 让 Laya 决策模型真正说中文
+# laya-mlx-zh — 让 Laya 决策模型真正说中文
+
+> **Apple Silicon (M1-M4) 专用中文权重** · 与 [laya-mlx](https://github.com/mizorewww/laya-mlx) 同门：那边是 MLX 推理框架，这边是中文微调的模型权重。
 
 [English](#english) · 中文微调版 Laya：消息路由 / 紧急度判断 / 优先级打分 / 检索关键词选择，四个决策头一体。在 Apple Silicon 上毫秒级推理。
 
-**TL;DR**：Laya 官方 multilingual checkpoint 自称支持 51 种语言，但中文决策任务实测接近失效（下方有对照数据）。我们用 9,000+ 条全合成中文数据做 heads-only 微调（8GB Mac、100 分钟、不动 encoder），把中文决策准确率拉到 0.85~0.90。数据集 + 训练脚本 + 权重全部开源。
+**TL;DR**：本仓库为 Mac 用户服务：下载权重 → 毫秒级中文决策。Laya 官方 multilingual checkpoint 自称支持 51 种语言，但中文决策任务实测接近失效（下方有对照数据）。我们用 9,000+ 条全合成中文数据做 heads-only 微调（8GB Mac、100 分钟、不动 encoder），把中文决策准确率拉到 0.85~0.90。数据集 + 训练脚本 + 权重全部开源。
 
 ---
 
@@ -21,7 +23,7 @@
 
 官方重点在英语和多语言广度，短期内不会做中文垂直深耕。所以我们自己动手——微调后：
 
-| 任务 | 微调前(官方) | 微调后 (laya-zh v4) |
+| 任务 | 微调前(官方) | 微调后 (本仓库 v4) |
 |---|---|---|
 | 消息路由 route (4类) | ~0.25* | **0.854** |
 | 紧急度判断 interrupt | — | **0.902** |
@@ -30,9 +32,9 @@
 *官方 multilingual 在中文 route 任务上接近随机猜（4 类）。\*
 评测集：41 条人工手写的分布外中文样本（脱敏版随仓库发布，见 `data/test.jsonl`）。
 
-## 快速开始（推理）
+## 快速开始（推理，需 Apple Silicon）
 
-需要 Apple Silicon (M1/M2/M3/M4)：
+M1/M2/M3/M4 Mac 即可，无需显卡：
 
 ```bash
 pip install laya-mlx
@@ -91,18 +93,21 @@ python train.py --epochs 8 --lr 5e-4 --bs 48
 - **bs 48**：MPS 上比默认快
 - **训练用 PyTorch（官方 `laya` 包），推理用 MLX（`laya-mlx`）**：MLX 推理快 2-4 倍，`laya_mlx` 的转换管线直接吃训练产物
 
+> **Linux/Windows/CUDA 用户**：训练脚本全平台可跑（官方还有 [Kaggle 2xT4 免费显卡 notebook](https://github.com/NandhaKishorM/laya)）——用本仓库的数据 + recipe 训练，得到的就是你平台原生的 PyTorch 权重。本仓库只发布 MLX 权重，不考虑全平台适配。
+
 ## 已知限制（诚实清单）
 
 - 测试集只有 41 条手写样本，准确率 ±0.10 置信区间，别当精确数字看
 - 输入上限 1024 tokens（继承官方配置），长文档请先摘要/分块。实测把 1 万字文档直接塞进去，相关性判断会失效——**短输入（标题+摘要）才是它的舒适区**
 - 训练数据全合成，真实分布偏移存在（我们用真实使用数据持续观察中）
 - 软标签校准未做 ECE 审计，置信度数值仅供参考排序，别当概率用
+- 权重仅 Apple Silicon（MLX 格式）。其他平台请用本仓库数据+recipe 自行训练（~100 分钟）
 
 ## 生态位
 
 - [NandhaKishorM/laya](https://github.com/NandhaKishorM/laya)：原版框架 + 英文/多语言 checkpoint（本项目的基座，Apache-2.0）
 - [mizorewww/laya-mlx](https://github.com/mizorewww/laya-mlx)：社区 MLX 移植（本项目的推理引擎）
-- **laya-zh（本项目）**：中文垂直层——数据集 + 微调权重 + 训练 recipe，与上游零冲突
+- **laya-mlx-zh（本项目）**：中文垂直层——数据集 + 中文微调 MLX 权重 + 训练 recipe，与上游零冲突
 
 如果你在做中文 agent 的消息分流、通知打断、记忆检索排序——这东西就是为你造的。
 
