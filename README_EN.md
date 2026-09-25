@@ -12,6 +12,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Apple%20Silicon%20M1--M4-black?logo=apple&logoColor=white)](https://github.com/ml-explore/mlx)
 [![Base Model](https://img.shields.io/badge/%F0%9F%A4%97%20Base-laya--multilingual-blue)](https://huggingface.co/convaiinnovations/laya-multilingual)
 [![Inference](https://img.shields.io/badge/Runtime-laya--mlx-orange)](https://github.com/mizorewww/laya-mlx)
+[![🤗 Weights](https://img.shields.io/badge/%F0%9F%A4%97%20Weights-ZLHAOOO%2Flaya--mlx--zh-blue)](https://huggingface.co/ZLHAOOO/laya-mlx-zh)
 
 </div>
 
