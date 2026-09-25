@@ -59,8 +59,11 @@
 
 ## 🚀 Quick Start
 
+**Step 1: download the weights** → [🤗 huggingface.co/ZLHAOOO/laya-mlx-zh](https://huggingface.co/ZLHAOOO/laya-mlx-zh) (614MB)
+
 ```bash
-pip install laya-mlx
+pip install laya-mlx huggingface_hub
+huggingface-cli download ZLHAOOO/laya-mlx-zh --local-dir weights/ckpt-zh-v4-mlx
 ```
 
 ```python
