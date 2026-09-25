@@ -1,0 +1,41 @@
+{"state": "服务器刚重启完，监控又报警了， CPU 100% 下不来", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "甲方的对接人说 logo 再改第 18 版，不然不验收", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "推广链接挂了两个小时了还没人发现吗，赶紧处理下", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "备份任务连着三天没跑成功，今天必须解决", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "官网的用户反馈注册收不到验证码，先排查下", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "那家 MCN 说合同今天下班前要给答复，对方在等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "上个月的报销单财务说少了个签字，补一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "我把下季度的选题池初稿发你邮箱了，不急，慢慢看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "飞书文档权限我给开了，需要的话自己进去拿素材", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "周三的直播复盘会议纪要整理好了，重点在第三页", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "账号后台的评论我清了一轮，都是常规维护", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "新来的实习生下周入职，工位和账号我提前弄好", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哈欠连天，今天先到这吧，明天见", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "刷到一个视频笑死我了，发你看下", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "我爸让我问你中秋回不回老家，好安排车", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这周囤的咖啡豆到了，给你留了一包", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "晚上要不要一起拼个桌打球", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "你上次推荐的那家面馆真不错，改天再去", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "【官方】您的账户存在异常登录，立即验证身份 bit.ly/xxxx", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "恭喜您被抽中成为幸运用户，填写银行卡即可领取 8888 元", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "急招兼职点赞员，日结 300，无需经验，加 Q 群", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "我是你领导，加一下我这个小号，有工作安排", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "银行信用贷利率 3.2% 急批，回 1 立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "亲，您店铺的信誉分不足，点击升级避免降权", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "域名明天到期忘了续，网站已经打不开了", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "直播还有半小时就开始，推流还没调好", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "甲方说方案要大改，明天早上要新版本", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "公司账号被盗了，正在申诉", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "排期表我更新了，下月的内容都排好了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "公众号封面图做好了，明早八点准时发", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "供应商报价发我了，你看下合不合理", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "会员下月到期，我续好了，记得走报销", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "昨天那条笔记评论区有人问合作方式", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "下次见面找个时间吃个饭，聊聊近况", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新出的那个游戏你入了没，一起开黑", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "我妈包了饺子，给你留了一盒放楼下了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这只猫又偷吃我的外卖，服了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "央视网提醒您：点击链接领取国庆大礼包，先到先得", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "您的邮箱存储已满，点击升级到会员避免被清空", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "加我好友免费送皮肤，还可以赚钱哦", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "房子急售，低于市场价三成，内部渠道", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}

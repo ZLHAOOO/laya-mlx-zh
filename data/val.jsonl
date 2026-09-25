@@ -1,0 +1,989 @@
+{"state": "老板儿，昨天那条笔记被转发了不少多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，晚上去游泳吗", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，🙏推广链接挂了半天了还没人发现吗，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，寂寞少妇视频聊天下载APP", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，账号异常登录，先冻结，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，硬盘CPU 100%下不来", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，会议纪要我整理好了，有空看一下就行。麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，低价代开发大礼包回复关键词", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，甲方说今天下班前要答复，对方在等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，登录全量超时，影响全部用户，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，那个电影看了没，一起追啊哈", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "明天早上一起跑步不。", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，您订阅的服务异常，点击链接处理~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "专业代开发需求请联系", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，素材库更新了一批，先存着多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，这个月的涨粉data出来了，整体平稳", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，下次见面聊聊近况。", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，下周三下午三点开选题会，记得来", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，寂寞少妇约会注册就玩。", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，我是你领导，加一下我这个小号，帮我个忙", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，官网报错500，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，素材库整理完旧素材，之后可以用~", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "‼️银行备用金利率3.2%秒批，回1立即办理呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "好久没聚了找个时间吃个饭啦", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，金融信用贷利率2.9%急批，回1立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，飞书文档我给开了，需要的话自己进去取文件", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，急招打字员，日结300，无需经验", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，亲，您的店铺被降权，点击升级避免处罚", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，我是你老板，加一下我这个工作号，帮我个忙啦", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "官网白屏！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，那家MCN说今天下班前要答复，对方在等，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，⚠️版本归档做完了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，落地页挂了半天了还没人发现吗!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，刷到一个帖子笑死我了~", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，新同事后天到岗，工位和账号我提前弄好麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，您的邮件被检测出问题，支付关税", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，小程序打不开", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "会议纪要我放云文档了，有空看一下就行", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，你上次推荐的那家面馆真不错，下次带朋友去", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，素材库整理完旧素材，之后可以用", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，数据库锁死了，业务不可用！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "昨天那条笔记被转发了不少", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，茶叶到了，给你带了一份", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，用户投诉登录不上，看看什么情况！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，数据库锁死了，服务全停了，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，周末回家不", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "国庆有安排吗～", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "落地页挂了两小时了影响报名了，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "素材丢了，急死", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，素材库整理完旧素材，先存着啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，自动化脚本的定时任务都正常", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，新剧看了没，剧透一波呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，明晚八点开选题会，记得来。辛苦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "例行备份已存好呢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，好久没聚了聊聊近况", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "⚠️合同对方已经寄出，等快递到", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，数据库磁盘满了，服务全停了，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，例行备份做完了呢麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "您的邮件被检测出问题，点此申述啦", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，上个月的发票财务说少了签字", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，上周的涨粉data出来了，涨了30%", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，明晚八点开选题会，记得来啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，[zzz]这个月的投放数据出来了，有点下滑啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "选题池发你邮箱了，不急，慢慢看拜托", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，亲，您店铺的信誉分不足，点击升级避免处罚", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，元宇宙投资跟着老师买", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，节日快乐呀，愿你万事顺意呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "上周的运营data出来了，涨了30%~", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，备份连着三天没跑完了，今天必须解决，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，素材库补了几个新模板，先存着", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，🙏网站建设需求请联系", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，客户在群里发火，说系统用不了，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，看到一个帖子发你看下", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，晚上打羽毛球吗", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，这个月的发票我提交了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，躺赚项目点链接", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，排期表初稿写好了，不急，慢慢看。", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "账号异常登录，先冻结，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，合同走完流程了，等快递到麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，服务器负载爆了！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，您的邮件被检测出问题，支付关税~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，亲，您店铺的信誉分不足，点击升级避免封店~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，⚠️银行信用贷利率2.9%急批，回1立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，周末回家不", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，打印店那边说后天到", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "备份连着一周没跑完了，今天必须解决！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，数据库锁死了，服务全停了！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，招聘兼职点赞员，日结300，无需经验哈", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，寂寞少妇视频聊天下载APP～", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，生产还境崩了，立刻看看，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，元宇宙投资稳赚不赔哈", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "下次见面找个时间吃个饭", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，😂恭喜您，无抵押贷款了解一下哈", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，茶叶到了，给你留了一包~", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，⚠️我是你领导，加一下我这个工作号，有工作安排", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，😂刷到一个段子绝了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，今天的运营data出来了，整体平稳", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "客户在群里发火，订单全失败，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，⚠️抖音排期排好了，过目一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，⚠️您的会员即将过期，联系客服处理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，‼️你上次推荐的那家面馆真不错，改天再去", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，家里小狗超可爱呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "域名快到期了，需要马上处理，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，周末打算干嘛", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，合同走完流程了，等快递到啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，公众号封面图做好了，明早发", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，生产环境崩了，快点看看!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，客户投诉，说系统用不了，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，工具账号下月到期，记得走报销有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，下次见面聊聊近况～", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，亲，您的店铺被降权，点击升级避免封店", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，今天的涨粉数据出来了，涨了30%", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，您的邮件被扣留在海关，支付关税", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，免费资源合集关注公众号领取呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，权限我给开了，需要的话自己进去拿素材～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，线上环境崩了，立刻看看，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，用户反馈注册收不到验证码，看看什么情况哈", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "笑死，给你看个好玩的", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，硬盘负载爆了，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，会员我续好了，不用急啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，[zzz]素材被误删了，急死，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，我是你老板，加一下我这个工作号，有工作安排", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，[zzz]躺赚项目私聊", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，节日快乐呀，愿你天天开心。", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，尊敬的用户，分期贷款了解一下", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，‼️会议纪要我写完了，有空看一下就行呢有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，周报我整理好了，有空看一下就行", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "备案被注销了，需要马上处理", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，公众号的排版调好了，过目一下辛苦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "假期有安排吗", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，上期视频数据出来了~", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，内容日历更新了，不急，慢慢看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，假期回家不呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，客户在群里发火，说系统用不了!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，您的邮件被扣留在海关，点此申述", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，哈哈，这个梗太对了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，短信服务异常，影响核心流程", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，恭喜您，分期贷款了解一下", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，我是你领导，加一下我这个小号，有工作安排啦", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，那家MCN说合同有问题，对方在等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，直播半小时后开始，推流还没调好!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，账号被盗了，赶紧申诉~", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，我是你领导，加一下我这个工作号，帮我个忙啦", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，刚发布的版本有致命问题，赶紧回滚~", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，会义纪要我整理好了，有空看一下就行麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，😂新来的实习生后天到岗，工位和账号我提前弄好哈", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "这个综艺看了没，剧透一波", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，🙏您有一个包裹无法投递，点击链接处理～", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "推送服务异常，影响全部用户，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，最近别太累～", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，网盘我给开了，需要的话自己进去拿素材", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "后台白屏！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "推送服务异常，影响全部用户，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，⚠️恭喜您，分期贷款了解一下呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，数剧库磁盘满了，业务不可用!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "限时大奖待领代金券~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，活动半小时后开始，流程还没对", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，最近睡得咋样", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，今天的运营数据出来了，涨了30%。有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，账号被盗了，赶紧申诉！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，金融备用金利率2.9%秒批，回1立即办理~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，楼下那只猫超可爱", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "用户反馈付不了款，先排查下，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，版本归档做完了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，周五上午开选题会，记得来有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，甲方说要毁约，对方在等！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，打印店那边报价发我了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，支付服务异常，影响核心流程～", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，考证限时免费扫码进群呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "官网的例行维护没问题", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，客户投诉，说系统用不了!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，【官方】您的账户存在异常登录，立即验证身份bit.ly/xxxx", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，官网的日常巡检没问题", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，登录服务异常，影响核心流程啦", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "例行备份已存好。辛苦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，账号被盗了，感紧申诉！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "您的快递被扣留在海关，点此申述呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，🙏下次见面找个时间吃个饭呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，[zzz]恭喜发财，低息借款了解一下", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，恭喜您，分期贷款了解一下。", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，我爸让我问一下中秋回不回老家", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，飞书doc我给开了，需要的话自己进去看资料～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，合同对方已经寄出，留档一份。", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，代码丢了，看看还能不能找回来，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，明天早上一起跑步不～", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，官网的例行维护没问题麻烦看一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "会员我续好了，不用急", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，代码回滚失败了，急死！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，会员该续费了，不用急辛苦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "😂公众号封面图做好了，明早发有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "虚拟币项目内幕消息", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，[zzz]网盘我给开了，需要的话自己进去取文件拜托", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，新同事后天到岗，工位和账号我提前弄好", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，你上次推荐的那家烧烤真不错，下次带朋友去", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，刚发布的版本有致命问题，赶紧回滚哈", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，限时抽奖机会会员", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，下次见面找个时间吃个饭", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "抖音的排版调好了，过目一下多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "用户反馈登录不上，看看什么情况，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，‼️快递那边报价发我了～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，您的邮件被检测出问题，支付关税", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，活动页挂了一上午了影响报名了！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，数据库锁死了，业务不可用，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，哈哈，你看这个哈", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这个月的运营数据出来了，涨了30%。", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "寂寞少妇约会下载APP。", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，落地页挂了一上午了还没人发现吗，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，您订阅的服务异常，点击链接处理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，合同对方已经寄出，等快递到呢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，我爸让我问一下中秋回不回老家呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，生产环境宕机，赶紧看看", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "打印店那边弄好了。", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，官网的例行维护都正常哈", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，合作方说要毁约，对方在等，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，看到一个帖子绝了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，内存CPU 100%下不来，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，🙏正式环境挂了，赶紧看看！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，🙏备份连着三天没跑完了，今天必须解决，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "客户炸了，说系统用不了呢", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，服务器负载爆了", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，银行信用贷利率2.9%秒批，回1立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，软件开发服务请联系~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "破解软件合集回复关键词", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，数据库写入失败，业务不可用，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，用户投诉注册收不到验证码，看看什么情况!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，明天早上去游泳吗~", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，版本归档做完了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，内容日历初稿写好了，不急，慢慢看～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，零食到了，给你留了一包", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，同城交友视频聊天注册就玩", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，😂我是你领导，加一下我这个小号，有工作安排", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，定时任务连着三天没跑成功了，今天必须解决!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，上个月的对账单核对完了～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，数据库锁死了，业务不可用，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，我表弟说谢谢咱", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新同事后天到岗，帮忙带一下~有空看看", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，免费资源合集关注公众号领取", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，你上次推荐的那家烧烤真不错，下次带朋友去", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，每周同步做完了～多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "生产环境崩了，立刻看看", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，客户炸了，说系统用不了", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，软件开发需求加V详聊", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，这个月的对账单核对完了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "破解软件合集关注公众号领取哈", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，🙏网课最后名额扫码进群", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，最近别太累呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，‼️选题池更新了，不急，慢慢看~", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，专业代开发服务请联系", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，🙏您的快递被扣留在海关，支付关税。", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，免费资源大礼包关注公众号领取", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，官网的日常巡检跑完了。拜托", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，🙏招聘兼职点赞员，日结500，加Q群呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，我爸让我问你周末来不来吃饭", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，生产环境崩了，立刻看看！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，🙏急招打字员，日结300，加Q群", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，那家MCN说今天下班前要答复，对方在等，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，用户投诉登录不上，看看什么情况", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，域名被注销了，需要马上处理！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，网盘我给开了，需要的话自己进去取文件啦多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，【官方】您的账号存在异常登录，立即验证身份短链", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，高质量美女视频聊天下载APP～", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，爬虫连着一周没跑成功了，今天必须解决，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "金融信用贷利率3.2%急批，回1立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，爬虫连着三天没跑完了，今天必须解决，急！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，刚发布的版本有致命问题，先回滚再说，速回", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，推送全量超时，影响核心流程", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，金融备用金利率3.2%秒批，回1立即办理", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，‼️【官方】您的账号存在异常登录，立即验证身份bit.ly/xxxx~", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，版本归档做完了啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，素材库整理完旧素材，先存着啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，亲，您店铺的信誉分不足，点击升级避免处罚哈", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，生产环境宕机，立刻看看啦", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，飞书文档我给开了，需要的话自己进去拿素材多谢", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，新剧看了没，一起追啊。", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，域名过期了，需要马上处理，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，您订阅的服务异常，点击链接处理～", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，上周的涨粉data出来了，涨了30%哈", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，刚发布的版本有致命问题，先回滚再说，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，会议纪要我整理好了，有空看一下就行", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，您的邮件被检测出问题，点此申述", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，素材库补了几个新模板，之后可以用~", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，🙏刷到一个段子笑死我了", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "[zzz]小红书的排版调好了，过目一下辛苦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，自动化脚本的日常巡检没问题", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，家里小狗超可爱", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "客户在群里发火，说系统用不了！！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，明晚八点开复盘会，记得来", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，新同事后天到岗，帮忙带一下", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，⚠️绝了，给你看个好玩的。", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板，茶叶到了，给你留了一包啦", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，用户反馈注册收不到验证码，看看什么情况!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "哥，限时抽奖机会iPhone", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，打印店那边说后天到～", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，晚上打羽毛球吗", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，今天的涨粉数据出来了，整体平稳啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "每周同步已存好", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板，数据库锁死了，服务全停了，尽快！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板儿，SSL证书被注销了，赶紧续!!!", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "Z，国庆打算干嘛", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，小程序白屏，在线等", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，文档我写完了，有空看一下就行哈", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "老板儿，明天早上一起跑步不哈", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Z，周报我整理好了，有空看一下就行", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，🙏我是你老板，加一下我这个小号，有工作安排", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，[zzz]最近睡得咋样啦", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，好久没聚了找个时间吃个饭", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "哥，素材库补了几个新模板，先存着", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "哥，供应商那边弄好了", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "Z，这个月的运营data出来了，有点下滑啦", "cluster": "work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [0.0, 1.0, 0.0, 0.0]}}
+{"state": "‼️网课限时免费先到先得呢", "cluster": "spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "今天好累，今天先到这吧", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "老板儿，内存报警了！", "cluster": "work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [0.0, 1.0], "priority": [0.0, 0.0, 0.0, 1.0]}}
+{"state": "老板，那个电影看了没，太上头了呢", "cluster": "personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "中文这个情况你来跟进~", "cluster": "kw", "q": "中文", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看转写的问题", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "老板问2026的方案", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "文稿这个资料你来跟进", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "回忆录这个资料你来跟进", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "🙏老板问2026的信息", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "SKILL这个情况你来跟进", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Styles的数据在哪。", "cluster": "kw", "q": "Styles", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "GPT是啥来着", "cluster": "kw", "q": "GPT", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看身弱的资料", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "Principles是啥来着", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "‼️帮我看看journal的问题", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "找下Skill相关的记录", "cluster": "kw", "q": "Skill", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下journal的方案～", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的2026的问题", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "找下Principles相关的结果", "cluster": "kw", "q": "Principles", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有Generation的信息吗", "cluster": "kw", "q": "Generation", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有文稿的内容吗", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "找下2026相关的要点~", "cluster": "kw", "q": "要点", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "‼️2026是啥来着～", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "之前那个Image的结果怎么样了", "cluster": "kw", "q": "Image", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "2026这个情况你来跟进", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有自媒体账号的数据", "cluster": "kw", "q": "自媒体账号", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的Wiki的方案", "cluster": "kw", "q": "Wiki", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有Relations的问题", "cluster": "kw", "q": "Relations", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有Laya的问题吗", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "帮我看看09的资料", "cluster": "kw", "q": "09", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "之前那个Architecture的data怎么样了", "cluster": "kw", "q": "数据", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "找下Skill相关的问题", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有16的信息", "cluster": "kw", "q": "16", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "有扩展的情况吗", "cluster": "kw", "q": "扩展", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "整理下2026的情况", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "上次说的BV1A6dJYCEY9的信息", "cluster": "kw", "q": "BV1A6dJYCEY9", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "找下2026相关的资料", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "文稿现在什么记录～", "cluster": "kw", "q": "文稿", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "😂Twitter现在什么信息", "cluster": "kw", "q": "Twitter", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "老板问自由的数据", "cluster": "kw", "q": "自由", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Operating的方案在哪", "cluster": "kw", "q": "Operating", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有年轻人的资料吗", "cluster": "kw", "q": "年轻人", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "老板问沉淀的情况", "cluster": "kw", "q": "沉淀", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Principles这个结果你来跟进", "cluster": "kw", "q": "Principles", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "之前那个时间的内容怎么样了", "cluster": "kw", "q": "时间", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "老板问视频的内容", "cluster": "kw", "q": "视频", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有Lingyu的要点", "cluster": "kw", "q": "要点", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下macOS的情况", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有TypeSafe的资料", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "原则是啥来着", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "之前那个拆机的记录怎么样了", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有journal的信息", "cluster": "kw", "q": "journal", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "老板问转写的结果", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有Relations的问题", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "整理下2026的方案", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有TypeSafe的资料", "cluster": "kw", "q": "TypeSafe", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "‼️2026是啥来着～", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的30的情况", "cluster": "kw", "q": "30", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有Educational的要点", "cluster": "kw", "q": "要点", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "LLaDA这个记录你来跟进", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的2026的结果", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有守则的记录", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有以前的内容吗", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "有中文的记录吗", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有财务的数剧。", "cluster": "kw", "q": "财务", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "FDE是啥来着", "cluster": "kw", "q": "FDE", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的图文的数据", "cluster": "kw", "q": "数据", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "之前那个2026的结果怎么样了", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "Journal是啥来着", "cluster": "kw", "q": "Journal", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有2026的结果吗", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "老板问Manga的信息", "cluster": "kw", "q": "信息", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "上次说的转写的情况呢", "cluster": "kw", "q": "转写", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "整理下维护的数据", "cluster": "kw", "q": "数据", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "有知识库的结果吗", "cluster": "kw", "q": "知识库", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "LLaDA这个记录你来跟进", "cluster": "kw", "q": "LLaDA", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看沉淀的结果", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有使用的问题吗", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "笔记现在什么要点", "cluster": "kw", "q": "要点", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "转写是啥来着", "cluster": "kw", "q": "转写", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "我记得有Photography的资料", "cluster": "kw", "q": "Photography", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "2026这个内容你来跟进", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "文稿这个信息你来跟进", "cluster": "kw", "q": "文稿", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "[zzz]之前那个选题的方案怎么样了", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我记得有Lingyu的要点", "cluster": "kw", "q": "Lingyu", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看知识库的内容", "cluster": "kw", "q": "知识库", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "‼️五条是啥来着呢", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "管家是啥来着呢", "cluster": "kw", "q": "管家", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看journal的资料", "cluster": "kw", "q": "journal", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "找下2026相关的问题", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "视频的信息在哪", "cluster": "kw", "q": "信息", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "整理下Pi的情况。", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "帮我看看Generation的内容", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "之前那个2026的数据怎么样了", "cluster": "kw", "q": "数据", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "之前那个Image的信息怎么样了", "cluster": "kw", "q": "Image", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "之前那个2026的资料怎么样了", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "老板现在什么结果~", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "journal是啥来着", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "找下journal相关的资料", "cluster": "kw", "q": "journal", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看2026的问题", "cluster": "kw", "q": "2026", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "小红书现在什么要点", "cluster": "kw", "q": "小红书", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "🙏老板问image的结果。", "cluster": "kw", "q": "结果", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下Things的要点", "cluster": "kw", "q": "Things", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的自媒体账号的结果", "cluster": "kw", "q": "自媒体账号", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "🙏找下老板相关的方案。", "cluster": "kw", "q": "老板", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有文稿的内容～", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有BV1XP4y1M7yz的问题", "cluster": "kw", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "整理下macOS的情况", "cluster": "kw", "q": "macOS", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下Image的信息", "cluster": "kw", "q": "信息", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "找下Pi相关的要点", "cluster": "kw", "q": "Pi", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的2024的内容", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "帮我看看沉淀的情况", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "扶持这个问题你来跟进", "cluster": "kw", "q": "扶持", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我记得有GPT的资料", "cluster": "kw", "q": "资料", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "硅谷现在什么方案", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "Anime现在什么情况", "cluster": "kw", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "整理下私有化的方案", "cluster": "kw", "q": "私有化", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下Agent的方案", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "整理下model的要点", "cluster": "kw", "q": "model", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "[zzz]之前那个选题的方案怎么样了", "cluster": "kw", "q": "选题", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "上次说的16的记录", "cluster": "kw", "q": "16", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "上次说的Wiki的方案", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有08的方案吗", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有书图的内容吗", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "上次说的原生的要点", "cluster": "kw", "q": "原生", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "转写现在什么内容", "cluster": "kw", "q": "转写", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "整理下Image的记录", "cluster": "kw", "q": "记录", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "09的方案在哪", "cluster": "kw", "q": "方案", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "帮我看看自媒体账号的结果", "cluster": "kw", "q": "自媒体账号", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "有使用的问题吗", "cluster": "kw", "q": "使用", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "老板问视频的内容", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "帮我看看转写的问题", "cluster": "kw", "q": "转写", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "08这个信息你来跟进", "cluster": "kw", "q": "信息", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "⚠️转写这个方案你来跟进", "cluster": "kw", "q": "转写", "labels": {"kw_select": [0.4, 0.6]}}
+{"state": "之前那个GPT的内容怎么样了", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "上次说的他用的资料", "cluster": "kw", "q": "他用", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "整理下安装的内容", "cluster": "kw", "q": "安装", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "[zzz]好奇这个内容你来跟进啦", "cluster": "kw", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "老板问分钟的data", "cluster": "kw", "q": "数据", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "上次说的Image的问题", "cluster": "kw", "q": "Image", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "涨粉", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "那家餐厅真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "直播马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "这个月用户增长略有下滑", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "客户投诉到总部，说数据丢了", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "恭喜您被抽中，点击领取", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "采购流程在审批中", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "发票抬头开错了，需要重新开具", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "fund", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "想了解一下年付有没有折扣", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "低息贷款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "版本", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "预算", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "游戏看没看，太精彩了", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "小红书", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "兼职刷单，日入500", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "发票抬头开错了，需要重新开具", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "兼职刷单，加群了解", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "提升", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "域名明天到期，今天必须搞定", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "签证", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "物流系统卡死，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "软件开发加V聊", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "想了解一下年付有没有折扣", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "签证", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "新开的咖啡店真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "游戏看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "多少", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "无抵押借款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "发布会马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我妈说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近注意身体", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "恭喜您中奖，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "采购流程走完了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "报错", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "月报写好了，发你邮箱，有空看看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "球赛看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "分配", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "付款成功了但服务还没开通", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "签证怎么办", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "签证怎么办", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "安全扫描发现漏洞，疑似被入侵", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "区别", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "在家日结，日入500", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "周三下午开会，别迟到", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "发布会马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "生产环境不可用，立即排查", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "恭喜您被抽中，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "减脂期", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "游戏看没看，太精彩了", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这个月转化率持平", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "月报写好了，发你邮箱，有空看看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "回滚", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "接口容量告警，业务全停", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "哪些", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "软件开发请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "回滚", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "睡眠", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "这个月销售额持平", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "股票", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "物流系统全部超时，影响大量用户", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "我朋友说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "您的会员异常，回复Y处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "接口锁死，大量工单进来", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "促销活动马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近别太累", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "发布会马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "线上环境不可用，马上处理", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "常见投资品对比：股债基黄金", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "最近别太累", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "版本升级顺利，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "周末打球去不", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "质量", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "恭喜您被抽中，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "签证", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "fund", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "软件开发请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "清单", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "安全扫描发现漏洞，疑似被入侵", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "安全扫描发现漏洞，疑似被入侵", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "规划", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "月报写好了，发你邮箱，有空看看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我是你领导的小号，加一下有安排", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这个月用户增长涨了15%", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "区别", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "fund", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "您的会员异常，回复Y处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "怎么办", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "客户投诉到总部，说数据丢了", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "数据库锁死，业务全停", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "emergency", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "想了解一下年付有没有折扣", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "周三上午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "文档整理完了，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "游戏看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "球赛看没看，太精彩了", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "下周二上午开会，别迟到", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "周三上午开会，别迟到", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "客户要求立即退款，说服务不可用", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "基金定投怎么开始", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "预算", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "你们的定价方案里企业版包含哪些服务", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "这个月转化率略有下滑", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "恭喜您被抽中，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "版本升级顺利，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新同事下周入职，账号我开好了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "必备", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "日本", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "周五下午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "例行维护完成，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "物流系统卡死，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "排查", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "周五下午开会，别迟到", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "预算", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "这个月转化率持平", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "减脂期", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "数据导出功能一直转圈加载不出来", "cluster": "ticket", "labels": {"ticket": [0.0, 1.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "必备", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "恭喜您中奖，点击领取", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这个月用户增长持平", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "您的账号异常，回复Y处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "git", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "质量", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "支付系统批量失败，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "秒批额度了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "签证怎么办", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "笑死，发你好玩", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "多少", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "跑步", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "客户在群里发火，说一直没人处理", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "投放", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "数据导出功能一直转圈加载不出来", "cluster": "ticket", "labels": {"ticket": [0.0, 1.0, 0.0]}}
+{"state": "备份连续三天失败，今天必须解决", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新同事下周入职，账号我开好了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "笑死，发你好玩", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "基金定投怎么开始", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "物流那边说后天到货", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "您的包裹异常，点击链接处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "软件开发请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "基金定投怎么开始", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "这个月转化率涨了15%", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "哪些", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "游戏看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "备案明天到期，今天必须搞定", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "文档更新到最新版，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "常见投资品对比：股债基黄金", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "小红书", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我是你老板的小号，加一下有安排", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "跑步", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "涨粉", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "您的会员异常，点击链接处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "证书明天到期，今天必须搞定", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "实习生下周入职，账号我开好了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "跑步", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我是你老板的小号，加一下有安排", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "采购流程走完了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "软件开发请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "域名明天到期，今天必须搞定", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "球赛看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "想了解一下年付有没有折扣", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "我朋友说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "我妈说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "物流系统卡死，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "跑步", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "笑死，你看这个", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "我是你老板的小号，加一下有安排", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "这个月销售额略有下滑", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "直播马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "文档整理完了，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "排查", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "无抵押借款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "我朋友问你好", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "开始", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "合同流程走完了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "绝了，你看这个", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "专业建站加V聊", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "低息贷款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "绝了，你看这个", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "低息贷款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "定时任务连续三天失败，今天必须解决", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "定时任务连续三天失败，今天必须解决", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "客户投诉到总部，说数据丢了", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "实习生下周入职，账号我开好了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "我上个月被扣了两次费，要求退回重复的部分", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "正式环境崩溃，立即排查", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近别太累", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "在家日结，日入500", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "无抵押借款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "周三上午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "恭喜您中奖，点击领取", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "域名明天到期，不续就断服", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "发票抬头开错了，需要重新开具", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "怎么办", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "软件开发加V聊", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "物流系统卡死，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "报销流程在审批中", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "报销流程在审批中", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "版本升级顺利，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "那家餐厅真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "必备", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "周三下午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "第一次去日本怎么规划", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "物流那边说明天发走", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "git 怎么回滚版本", "cluster": "kw-open", "q": "回滚", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "基金定投怎么开始", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "绝了，你看这个", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "网页在 Safari 上排版全乱了", "cluster": "ticket", "labels": {"ticket": [0.0, 1.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "多少", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "广告投放 ROI 优化实操手册", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "物流那边说明天发走", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "接口锁死，业务全停", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "线上环境不可用，立即排查", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "数据库报错，业务全停", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "版本升级完成，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "正式环境宕机，马上处理", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "客户在群里发火，说服务不可用", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "报销流程在审批中", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "软件开发加V聊", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "恭喜您被抽中，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "在家日结，加群了解", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "减脂期", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "安全告警，疑似被入侵", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "区别", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "投放预算怎么分配", "cluster": "kw-open", "q": "投放", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "我上个月被扣了两次费，要求退回重复的部分", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "供应商那边说明天发走", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "域名明天到期，今天必须搞定", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "付款成功了但服务还没开通", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "支付系统全部超时，影响线上交易", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "最近注意身体", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "Git 分支管理策略与回滚操作指南", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "球赛看没看，太精彩了", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "跑步", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "小红书", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "您的会员异常，回复Y处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "哈哈哈，你看这个", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近别太累", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "专业建站请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "下周二下午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "Python 异常处理最佳实践：try/except 与日志", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "我朋友说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "常见投资品对比：股债基黄金", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "那家餐厅真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "规划", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "支付系统批量失败，影响大量用户", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "区别", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "涨粉", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "周三下午开会，记得参加", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "低息贷款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新开的咖啡店真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "线上环境不可用，立即排查", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "多少", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "你们的定价方案里企业版包含哪些服务", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": " emergency fund 留多少", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "小红书冷启动指南：从0到1000粉", "cluster": "rel-open", "q": "品牌定位怎么做", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "开始", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "签证怎么办", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "个人财务管理：应急资金与资产配置", "cluster": "rel-open", "q": "学什么语言入门好", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "您的账号异常，点击链接处理", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "投放预算怎么分配", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "第一次", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "哪些", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "膝盖", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "例行维护顺利，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "软件开发请联系", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "游戏看没看，一起玩啊", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近注意身体", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "月报写好了，发你邮箱，有空看看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "睡眠质量怎么提升", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "明天打球去不", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "新开的咖啡店真不错，下次再去", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "文档更新到最新版，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "最近注意身体", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "晚上打球去不", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "秒批额度了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "代码报错怎么排查", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "球赛看没看，太精彩了", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "恭喜您被抽中，填卡领奖", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "程序员成长路线图：从初级到高级", "cluster": "rel-open", "q": "git 怎么回滚版本", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "文档更新到最新版，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "客户在群里发火，说服务不可用", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "这个月转化率略有下滑", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "问题", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "秒批额度了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "在家日结，加群了解", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "采购流程在审批中", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "我朋友说改天聚", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "膝盖疼还能跑步吗", "cluster": "kw-open", "q": "膝盖", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "供应商那边说明天发走", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "跑步运动损伤预防与恢复", "cluster": "rel-open", "q": "签证怎么办", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "我上个月被扣了两次费，要求退回重复的部分", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "fund", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "这个月用户增长涨了15%", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "睡眠质量怎么提升", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "哪些", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "小红书怎么涨粉", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "日本自由行攻略：关西关东路线规划", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.35, 0.65]}}
+{"state": " emergency fund 留多少", "cluster": "kw-open", "q": "fund", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "长途旅行行李清单模板", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "供应商那边说后天到货", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "文档整理完了，不急，慢慢看", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "代码报错怎么排查", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "科学减脂饮食指南：热量缺口与营养配比", "cluster": "rel-open", "q": "膝盖疼还能跑步吗", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "第一次去日本怎么规划", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "基金", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "东西", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "无抵押借款了解一下，利息超低", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "域名明天到期，不续就断服", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "签证办理流程与材料清单", "cluster": "rel-open", "q": "减脂期怎么吃", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "接口锁死，业务全停", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "股票和基金区别", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "睡眠卫生手册：改善睡眠的十个习惯", "cluster": "rel-open", "q": "行李清单有哪些必备", "labels": {"relevance": [0.35, 0.65]}}
+{"state": "恭喜您中奖，点击领取", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "付款成功了但服务还没开通", "cluster": "ticket", "labels": {"ticket": [1.0, 0.0, 0.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "学什么语言入门好", "cluster": "kw-open", "q": "语言", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "基金定投怎么开始", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "客户在群里发火，说数据丢了", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "涨粉", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "资料", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "新同事下周入职，账号我开好了", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "行李清单有哪些必备", "cluster": "kw-open", "q": "必备", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "客户要求立即退款，说服务不可用", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "品牌定位方法论：定位理论与案例", "cluster": "rel-open", "q": "基金定投怎么开始", "labels": {"relevance": [0.9, 0.1]}}
+{"state": "晚上看电影吧", "cluster": "open-open-personal", "labels": {"route": [0.0, 0.0, 1.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "你们和竞品比核心优势是什么", "cluster": "ticket", "labels": {"ticket": [0.0, 0.0, 1.0]}}
+{"state": "直播马上开始，关键环节还没准备好", "cluster": "open-open-work-urgent", "labels": {"route": [1.0, 0.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "专业建站加V聊", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "例行维护完成，一切正常", "cluster": "open-open-work-normal", "labels": {"route": [0.0, 1.0, 0.0, 0.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "指数基金定投入门：策略与心态", "cluster": "rel-open", "q": "股票和基金区别", "labels": {"relevance": [0.1, 0.9]}}
+{"state": "小红书怎么涨粉", "cluster": "kw-open", "q": "情况", "labels": {"kw_select": [0.95, 0.05]}}
+{"state": "兼职刷单，加群了解", "cluster": "open-open-spam", "labels": {"route": [0.0, 0.0, 0.0, 1.0], "interrupt": [1.0, 0.0], "priority": [1.0, 0.0, 0.0, 0.0]}}
+{"state": "减脂期怎么吃", "cluster": "kw-open", "q": "减脂期", "labels": {"kw_select": [0.1, 0.9]}}
+{"state": "品牌定位怎么做", "cluster": "kw-open", "q": "内容", "labels": {"kw_select": [0.95, 0.05]}}
