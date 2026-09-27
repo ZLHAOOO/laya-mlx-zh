@@ -21,7 +21,7 @@
 ## ✨ Highlights
 
 - **Fixes Chinese decision failure**: The official multilingual checkpoint claims 51+ language support, but Chinese decision tasks measured near random-guess (a real work message classified as `spam` @ 0.96 confidence). This model lifts Chinese decision accuracy to **0.85–0.90**
-- **v0.2 new: fixes "fine-tuning hurts generalization"**: on the community-frozen Chinese benchmark ([issue #364](https://github.com/NandhaKishorM/laya/issues/364)) v0.1 regressed badly (0.44/0.28); v0.2 **surpasses the official baseline (0.833/0.833 vs 0.722/0.778)** and leads on 7/9 held-out task heads — the key is **label-space diversity** in training data, not text diversity within one label set
+- **v0.2 new: fixes "fine-tuning hurts generalization"**: on the community-frozen Chinese benchmark ([issue #364](https://github.com/NandhaKishorM/laya/issues/364)) v0.1 regressed badly (0.44/0.28); v0.2 recovers to 0.72–0.83 (official baseline 0.72–0.78, scenario surpassed) and leads on 8/9 held-out task heads at **0.750 vs 0.681** — the key is **label-space diversity** in training data, not text diversity within one label set
 - **Open-book domain expansion (Criteria Packs)**: domain knowledge lives in JSON pack files, read at inference time — a new scenario is a new file, not a new training run (`packs/` ships 3 examples)
 - **Fifteen decisions, one forward pass**: message routing / urgency / priority / semantic relevance / retrieval keywords / ticket triage / code·marketing·finance·life-admin routing / emotion (3 probes) / generic intent — all in a single forward pass
 - **Millisecond latency**: ~27 ms per question on Apple Silicon (MLX, measured on M1). No GPU, no API subscription, fully offline
@@ -45,9 +45,9 @@
 
 | Task | Metric | Official baseline* | v0.1 (v4) | v0.2 (v5) |
 |---|---|---|---|---|
-| Message routing (4-class) | accuracy | ~0.25 (near random) | **0.854** | 0.683 ⚠️ |
+| Message routing (4-class) | accuracy | ~0.25 (near random) | **0.854** | 0.756 ⚠️ |
 | Urgency / interrupt | accuracy | — | **0.902** | 0.902 |
-| Priority scoring (4-level) | accuracy | — | **0.878** | 0.732 ⚠️ |
+| Priority scoring (4-level) | accuracy | — | **0.878** | 0.854 |
 
 <sub>⚠️ v0.2 trade-off: multi-label-space mixing lifts open-book generalization but dilutes specialist-head accuracy (a known effect in the official fine-tuning practice; their fix is the same: re-weighting). For narrow fixed-label routing use the v0.1 weights (HF history revision) or retrain with the v0.1 recipe.</sub>
 
@@ -57,13 +57,13 @@ Same frozen 18-case / 6-label / 7-config benchmark as upstream [`research/benchm
 
 | Config | Official multilingual | v0.1 (v4) | v0.2 (v5) |
 |---|---|---|---|
-| choice_criteria | 0.722 | 0.444 | **0.833** |
+| choice_criteria | 0.722 | 0.444 | 0.722 |
 | choice_scenario | 0.778 | 0.278 | **0.833** |
 | choice_json_state | 0.667 | 0.556 | 0.667 |
-| noul_plain | 0.667 | 0.500 | 0.556 |
+| noul_plain | 0.667 | 0.500 | 0.486 |
 | noul_criteria | 0.458 | 0.431 | 0.472 |
-| noul_scenario | 0.472 | 0.458 | 0.500 |
-| noul_json_state | 0.417 | 0.389 | **0.569** |
+| noul_scenario | 0.472 | 0.458 | 0.486 |
+| noul_json_state | 0.417 | 0.389 | 0.486 |
 
 **Key finding**: v0.1's specialist fine-tune regressed severely on unseen label spaces (choice mean −0.30, wrong with high confidence); v0.2 fully heals the collapse via multi-label-space mixing and **beats the official baseline on two choice configs**. At this scale, "fine-tuning must hurt generalization" does not hold — provided the training data covers label-space diversity rather than text diversity within a single label set.
 
@@ -74,13 +74,13 @@ Same frozen 18-case / 6-label / 7-config benchmark as upstream [`research/benchm
 | Head | v0.2 | Official |
 |---|---|---|
 | robot_cmd (adversarial phrasing included) | **0.850** | 0.811 |
-| marketing_router | **0.817** | 0.811 |
+| marketing_router | **0.861** | 0.811 |
 | emotion (3 probes) | **0.889** | 0.667 |
-| life_admin | **0.717** | 0.661 |
-| finance_ops | 0.750 | 0.756 |
-| intent_cn | **0.600** | 0.461 |
+| life_admin | **0.756** | 0.661 |
+| finance_ops | 0.683 | **0.756** |
+| intent_cn | **0.728** | 0.461 |
 | code_router | **0.594** | 0.567 |
-| **TOTAL** | **0.727** | 0.681 |
+| **TOTAL** | **0.750** | 0.681 |
 
 <sub>Data released in `data-v5/` (fully synthetic, template+perturbation, soft-label gradients); train/val/test disjoint.</sub>
 
