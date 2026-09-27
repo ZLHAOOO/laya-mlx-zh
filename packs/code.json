@@ -1,0 +1,23 @@
+{
+  "pack": "code",
+  "version": 1,
+  "description": "代码工作场景：bug/功能/重构/文档/部署路由",
+  "questions": {
+    "route": {
+      "type": "choice",
+      "instructions": "这条消息该路由给哪个代码类技能？",
+      "criteria": {
+        "bugfix": "排查修复：报错、崩溃、异常",
+        "feature": "新功能开发：加功能、改交互",
+        "refactor": "重构优化：不改行为只改质量",
+        "docs": "文档查询：API 用法、配置说明",
+        "deploy": "部署运维：构建、发布、环境",
+        "chat": "与代码无关的消息"
+      }
+    },
+    "urgent": {
+      "type": "noul",
+      "instructions": "这条消息是否涉及必须马上处理的生产问题？"
+    }
+  }
+}

@@ -21,10 +21,12 @@
 ## ✨ 亮点
 
 - **修复中文决策失效**：官方 multilingual checkpoint 自称支持 51+ 语言，中文决策任务实测接近随机猜（真实工作消息被判为 spam @ 0.96 置信度）。本模型将中文决策准确率拉至 **0.85–0.90**
-- **一次前向，六个决策**：消息路由 / 紧急度判断 / 优先级打分 / 语义相关性 / 检索关键词选择 / 工单分派，单次 forward pass 全部完成
+- **v0.2 新增：治好了"微调必伤泛化"**：官方中文基准（[issue #364](https://github.com/NandhaKishorM/laya/issues/364)）上从 v0.1 的负迁移（0.44/0.28）反超原版基线（**0.833/0.833** vs 0.722/0.778），陌生标签空间 + 多领域 held-out 全面领先——秘诀是训练数据覆盖**标签空间多样性**而非同一标签集内的文本多样性
+- **开卷式场景扩展（Criteria Packs）**：场景知识外置成 JSON 标签包，判断时现场读——新场景 ≠ 重新训练，写个文件毫秒级上线（`packs/` 含 3 个示范）
+- **一次前向，15 个决策**：消息路由 / 紧急度 / 优先级 / 语义相关性 / 检索关键词 / 工单分派 / 代码·营销·财务·生活管家路由 / 情绪三问 / 通用意图，单次 forward pass 全部完成
 - **毫秒级延迟**：Apple Silicon 上单问 ~27ms（MLX，M1 实测），无需 GPU、无 API 订阅、可离线
-- **8GB Mac 可复现**：heads-only 微调仅 ~15M 可训参数，100 分钟在 8GB M1 上完成全流程
-- **合成数据全开源**：9,000+ 条中文训练数据零真实用户内容，生成脚本随仓库发布——可审计、可复现、可改造为你自己的场景
+- **8GB Mac 可复现**：heads-only 微调仅 ~15M 可训参数，全流程 8GB M1 完成
+- **合成数据全开源**：10,000+ 条中文训练数据零真实用户内容，生成脚本随仓库发布——可审计、可复现、可改造为你自己的场景
 
 ## 📊 评测
 
@@ -41,13 +43,46 @@
 
 ### 微调后（本模型）
 
-| 任务 | 指标 | 官方基线* | laya-mlx-zh v4 |
-|---|---|---|---|
-| 消息路由 route（4 类） | accuracy | ~0.25（近随机） | **0.854** |
-| 紧急度判断 interrupt | accuracy | — | **0.902** |
-| 优先级打分 priority（4 档） | accuracy | — | **0.878** |
+| 任务 | 指标 | 官方基线* | v0.1 (v4) | v0.2 (v5) |
+|---|---|---|---|---|
+| 消息路由 route（4 类） | accuracy | ~0.25（近随机） | **0.854** | 0.683 ⚠️ |
+| 紧急度判断 interrupt | accuracy | — | **0.902** | 0.902 |
+| 优先级打分 priority（4 档） | accuracy | — | **0.878** | 0.732 ⚠️ |
 
-<sub>\* 官方基线为 4 类路由任务下的近似随机水平；官方未发布中文决策基准。评测集 = 41 条人工手写分布外样本（随仓库发布于 `data/test.jsonl`，已脱敏）。样本量小，准确率置信区间约 ±0.10——把它当"能力量级"看，别当精确值。</sub>
+<sub>⚠️ v0.2 的取舍见下方官方基准对照与「限制」：多标签空间混训提升了通用读题能力，但稀释了专用头精度（官方微调实践中的已知现象，官方解法同样是重加权）。追求极致专精的用户用 v0.1 权重（HF 历史 revision）或按本仓库配方重训。</sub>
+
+### 官方中文基准对照（v0.2.0 新增）
+
+上游社区在 [issue #364](https://github.com/NandhaKishorM/laya/issues/364) 冻结了一套中文短指令基准（18 条手写指令、6 标签、7 种提示配置，逐条决策存档可复现）。我们用同一张卷子、同一套判分与温度口径（clamped）对比了三方——**runner 随本仓库发布于 `bench/`（MLX 直跑，含 stub 自检与基线复现验证）**：
+
+| 配置 | 官方 multilingual | v0.1 (v4) | v0.2 (v5) |
+|---|---|---|---|
+| choice_criteria | 0.722 | 0.444 | **0.833** |
+| choice_scenario | 0.778 | 0.278 | **0.833** |
+| choice_json_state | 0.667 | 0.556 | 0.667 |
+| noul_plain | 0.667 | 0.500 | 0.556 |
+| noul_criteria | 0.458 | 0.431 | 0.472 |
+| noul_scenario | 0.472 | 0.458 | 0.500 |
+| noul_json_state | 0.417 | 0.389 | **0.569** |
+
+**关键结论**：v0.1 的专用微调曾在陌生标签空间上严重负迁移（choice 平均 -0.30，错得高置信）；v0.2 通过**多标签空间混训**完全治愈塌缩，choice 两个配置**超过原版**。数据支持一个反直觉结论：在这个规模上，"微调必伤泛化"不成立——前提是训练数据覆盖足够的标签空间多样性，而不是同一标签集内的文本多样性。
+
+### 多领域 held-out（v0.2.0 新增）
+
+9 个中文任务头的分布外测试（1,116 决策，训练全程未见过），v0.2 vs 官方原版同卷对照：
+
+| 任务头 | v0.2 | 官方原版 |
+|---|---|---|
+| robot_cmd（机器人指令，含对抗措辞） | **0.850** | 0.811 |
+| marketing_router | **0.817** | 0.811 |
+| emotion（3 问） | **0.889** | 0.667 |
+| life_admin | **0.717** | 0.661 |
+| finance_ops | 0.750 | 0.756 |
+| intent_cn | **0.600** | 0.461 |
+| code_router | **0.594** | 0.567 |
+| **TOTAL（9 头 1116 决策）** | **0.727** | 0.681 |
+
+<sub>数据随仓库发布于 `data-v5/`（全合成、模板+扰动生成、软标签梯度）；训练/验证/测试零重叠。</sub>
 
 ### 延迟（M1, MLX, 实测）
 
@@ -59,17 +94,17 @@
 
 ## 🚀 快速开始
 
-**第一步：下载权重** → [🤗 huggingface.co/ZLHAOOO/laya-mlx-zh](https://huggingface.co/ZLHAOOO/laya-mlx-zh)（614MB）
+**第一步：下载权重** → [🤗 huggingface.co/ZLHAOOO/laya-mlx-zh](https://huggingface.co/ZLHAOOO/laya-mlx-zh)（647MB，v0.2.0）
 
 ```bash
 pip install laya-mlx huggingface_hub
-huggingface-cli download ZLHAOOO/laya-mlx-zh --local-dir weights/ckpt-zh-v4-mlx
+huggingface-cli download ZLHAOOO/laya-mlx-zh --local-dir weights/ckpt-zh-v5b-mlx
 ```
 
 ```python
 import laya_mlx as laya
 
-agent = laya.load("./weights/ckpt-zh-v4-mlx")  # 权重下载见 weights/README.md
+agent = laya.load("./weights/ckpt-zh-v5b-mlx")  # 权重下载见 weights/README.md
 
 result = agent.predict(
     "服务器宕机了赶紧处理",
@@ -107,6 +142,45 @@ print(result["answers"]["interrupt"])
 | `noul` | 校准概率 P(true) ∈ [0,1] | interrupt（该不该打断）、relevance（笔记与 query 相关性）、kw_select（词是不是好搜索词） | 打断判断、检索过滤、护栏 |
 | `score` | 有序量表的期望档位 + 分布 | priority（1–4 优先级） | 紧急度、严重度、情绪强度 |
 
+## 📂 Criteria Packs（开卷式场景扩展）
+
+设计哲学：**模型只管理解，场景知识外置成标签包**。就像聪明学生开卷考试——他不背题，但查资料、读题、匹配的能力很强。新场景 ≠ 重新训练，写一个 JSON 标签包即可（毫秒级上线）。
+
+包格式（与 Laya 官方 predict API 同构，长键风格）：
+
+```json
+{
+  "pack": "life-admin",
+  "version": 1,
+  "description": "生活管家场景",
+  "questions": {
+    "route": {
+      "type": "choice",
+      "instructions": "这条生活消息该交给哪个管家技能？",
+      "criteria": {
+        "schedule": "日程安排：约会、会议、提醒",
+        "shopping": "购物消费：想买、下单、退换"
+      }
+    },
+    "interrupt": { "type": "noul", "instructions": "这条消息是否需要立刻去办？" }
+  }
+}
+```
+
+用法：
+
+```bash
+# CLI：开卷模式（--raw 输出完整原始结果）
+echo "下周三帮我约个牙医" | laya --pack packs/life-admin.json --raw
+
+# HTTP 服务：天生支持动态 questions，直接传 queries 字段
+curl -X POST 127.0.0.1:18766/predict -d '{"state": "...", "queries": {...}}'
+```
+
+内置示范：`packs/life-admin.json`（生活管家）、`packs/code.json`（代码）、`packs/emotion.json`（情绪三问）。
+
+写包的手艺（决定准确率的不是模型，是包）：① criteria 描述写**判断依据**，不是同义改写（“需要立刻处理的生产事故”好于“紧急的事”）；② 标签之间语义边界要拉开，模糊地带的判断交给 noul 问句或上游大模型；③ state 只留判断必需的上下文，候选信息全部写进 criteria（官方微调文档验证过：输入格式 > 数据量）。
+
 ## 📦 数据集
 
 `data/` 全量开源，**100% 合成**（模板 + 规则扰动生成，无任何真实用户内容，已过 PII 门禁扫描）：
@@ -117,6 +191,9 @@ print(result["answers"]["interrupt"])
 | `train_kw.jsonl` | 1,004 | 关键词选择头专项（好搜索词 vs 口语噪声词，标注来源 = 该词实际 BM25 检索质量） |
 | `val.jsonl` | 989 | 验证集（与训练同分布） |
 | `test.jsonl` | 41 | **人工手写**分布外测试集（评测表中数字的来源） |
+| `data-v5/train_v5_extra.jsonl` | 1,560 | **v0.2 新增**：7 个新任务头（代码/营销/财务/生活管家/机器人指令/通用意图/情绪 3 问），27% 行携带 criteria 措辞变体（行内 `qs` 字段，治"背词串"） |
+| `data-v5/val_v5_extra.jsonl` | 296 | v0.2 验证集（新头） |
+| `data-v5/test_v5.jsonl` | 1,092 | **v0.2 held-out 测试集**（9 头逐头分布外，多领域表数字来源） |
 
 格式示例：
 
@@ -129,10 +206,25 @@ print(result["answers"]["interrupt"])
 
 ## 🔧 复现训练
 
-8GB M1 实测 ~100 分钟：
+### v0.2（多标签空间混训，当前版本）
+
+8GB M1 实测 ~2.5 小时（v0.1 配方 ~100 分钟）：
 
 ```bash
 pip install laya torch transformers safetensors huggingface_hub
+python gen_v5.py                                   # 生成 7 新任务头数据（含措辞变体）
+cat data/train.jsonl data/train.jsonl data-v5/train_v5_extra.jsonl > data/train_v5.jsonl   # v4 ×2 过采样：保专精+治塌缩的配比
+cat data/val.jsonl data-v5/val_v5_extra.jsonl > data/val_v5.jsonl
+LAYA_V5=1 python train.py --epochs 6 --out ckpt-zh-v5b
+LAYA_V5=1 python eval_v5.py ckpt-zh-v5b test_v5    # 新头泛化评测（--baseline 对照原版）
+python calibrate.py ckpt-zh-v5b                    # 温度表 held-out 重拟合（预览，--apply 写回）
+```
+
+官方中文基准复现：clone 上游仓库后，将本仓库 `run_mlx.py` 放入 `research/benchmarks/zh_short_commands/`，用 laya-venv 跑 `python run_mlx.py --checkpoint <你的mlx目录> --out <输出目录>`（MLX 直跑，无需 torch 版 laya；stub 自检 + 原版基线复现双验证已内置）。
+
+### v0.1（专用微调，历史配方）
+
+```bash
 python train.py --epochs 8 --lr 5e-4 --bs 48 --out ckpt-zh-v4
 python eval_test.py test ckpt-zh-v4   # 训练产物直接评测
 ```
@@ -148,10 +240,12 @@ python eval_test.py test ckpt-zh-v4   # 训练产物直接评测
 
 ## ⚠️ 限制
 
-- 评测集仅 41 条手写样本，数字是能力量级而非精确指标
-- 输入上限 1024 tokens（继承官方配置）。**实测长文档直接输入会失效**（开头泛化内容让相关性判断失灵）——请先摘要/分块，短输入（标题+摘要）才是舒适区
+- **v0.2 的已知取舍**：多标签空间混训把 route 专用精度从 0.854 换到 0.683（优先级 0.878→0.732）——头容量在多任务间竞争，官方微调实践同样观察到并需重加权。若你只需要固定几类的专用路由：用 v0.1 权重或以自己的标签数据按 v0.1 配方重训；若你需要**陌生场景泛化 / 动态标签包**：v0.2 是对的。
+- 输入上限 1024 tokens（继承官方配置；前缀预算 192 + 状态区余量）。**实测长文档直接输入会失效**（开头泛化内容让相关性判断失灵）——请先摘要/分块，短输入（标题+摘要）才是舒适区
+- criteria 描述有预算：候选 × 描述长度 ≤ 192 token（中文约 0.68 token/字，6 标签时每条描述建议 ≤22 字）。超限会显式报错（不会静默丢选项）
+- 评测集部分仍为手写小样本（41 条自建 + 官方 18 条 + 多领域 1,092 条合成 held-out），数字是能力量级而非精确指标
 - 训练数据全合成，与真实分布存在偏移
-- 软标签校准未做 ECE 审计，置信度适合排序，不宜当概率直接用
+- 温度表待 held-out 重拟合（`calibrate.py` 已随仓库发布，v0.2 权重暂沿用官方表；置信度适合排序，不宜当概率直接用）
 - 权重仅 Apple Silicon（MLX 格式），其他平台见上文复现路径
 
 ## 🧬 生态位

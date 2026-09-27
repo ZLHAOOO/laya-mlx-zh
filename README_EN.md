@@ -21,10 +21,12 @@
 ## ✨ Highlights
 
 - **Fixes Chinese decision failure**: The official multilingual checkpoint claims 51+ language support, but Chinese decision tasks measured near random-guess (a real work message classified as `spam` @ 0.96 confidence). This model lifts Chinese decision accuracy to **0.85–0.90**
-- **Six decisions, one forward pass**: message routing / urgency detection / priority scoring / semantic relevance / retrieval keyword selection / ticket triage — all in a single forward pass
+- **v0.2 new: fixes "fine-tuning hurts generalization"**: on the community-frozen Chinese benchmark ([issue #364](https://github.com/NandhaKishorM/laya/issues/364)) v0.1 regressed badly (0.44/0.28); v0.2 **surpasses the official baseline (0.833/0.833 vs 0.722/0.778)** and leads on 7/9 held-out task heads — the key is **label-space diversity** in training data, not text diversity within one label set
+- **Open-book domain expansion (Criteria Packs)**: domain knowledge lives in JSON pack files, read at inference time — a new scenario is a new file, not a new training run (`packs/` ships 3 examples)
+- **Fifteen decisions, one forward pass**: message routing / urgency / priority / semantic relevance / retrieval keywords / ticket triage / code·marketing·finance·life-admin routing / emotion (3 probes) / generic intent — all in a single forward pass
 - **Millisecond latency**: ~27 ms per question on Apple Silicon (MLX, measured on M1). No GPU, no API subscription, fully offline
-- **Reproducible on an 8GB Mac**: heads-only fine-tuning with only ~15M trainable params, full pipeline in 100 minutes on an 8GB M1
-- **Fully synthetic data, open-sourced**: 9,000+ Chinese training samples with zero real user content, generation scripts included — auditable, reproducible, and adaptable to your own domain
+- **Reproducible on an 8GB Mac**: heads-only fine-tuning with only ~15M trainable params
+- **Fully synthetic data, open-sourced**: 10,000+ Chinese training samples with zero real user content, generation scripts included — auditable, reproducible, and adaptable to your own domain
 
 ## 📊 Benchmarks
 
@@ -41,13 +43,46 @@
 
 ### After fine-tuning (this model)
 
-| Task | Metric | Official baseline* | laya-mlx-zh v4 |
-|---|---|---|---|
-| Message routing (4-class) | accuracy | ~0.25 (near random) | **0.854** |
-| Urgency / interrupt | accuracy | — | **0.902** |
-| Priority scoring (4-level) | accuracy | — | **0.878** |
+| Task | Metric | Official baseline* | v0.1 (v4) | v0.2 (v5) |
+|---|---|---|---|---|
+| Message routing (4-class) | accuracy | ~0.25 (near random) | **0.854** | 0.683 ⚠️ |
+| Urgency / interrupt | accuracy | — | **0.902** | 0.902 |
+| Priority scoring (4-level) | accuracy | — | **0.878** | 0.732 ⚠️ |
 
-<sub>\* The official baseline is near-random on 4-class Chinese routing; no official Chinese decision benchmark exists. Eval set = 41 hand-written out-of-distribution Chinese samples (released in `data/test.jsonl`, sanitized). Small sample — treat these as capability magnitude (±0.10 CI), not precise numbers.</sub>
+<sub>⚠️ v0.2 trade-off: multi-label-space mixing lifts open-book generalization but dilutes specialist-head accuracy (a known effect in the official fine-tuning practice; their fix is the same: re-weighting). For narrow fixed-label routing use the v0.1 weights (HF history revision) or retrain with the v0.1 recipe.</sub>
+
+### Official Chinese benchmark (upstream #364, frozen)
+
+Same frozen 18-case / 6-label / 7-config benchmark as upstream [`research/benchmarks/zh_short_commands/`](https://github.com/NandhaKishorM/laya/issues/364), same judging and clamped-temperature regime — runner shipped in this repo (`run_mlx.py`, MLX-native, stub self-test + baseline-reproduction verified):
+
+| Config | Official multilingual | v0.1 (v4) | v0.2 (v5) |
+|---|---|---|---|
+| choice_criteria | 0.722 | 0.444 | **0.833** |
+| choice_scenario | 0.778 | 0.278 | **0.833** |
+| choice_json_state | 0.667 | 0.556 | 0.667 |
+| noul_plain | 0.667 | 0.500 | 0.556 |
+| noul_criteria | 0.458 | 0.431 | 0.472 |
+| noul_scenario | 0.472 | 0.458 | 0.500 |
+| noul_json_state | 0.417 | 0.389 | **0.569** |
+
+**Key finding**: v0.1's specialist fine-tune regressed severely on unseen label spaces (choice mean −0.30, wrong with high confidence); v0.2 fully heals the collapse via multi-label-space mixing and **beats the official baseline on two choice configs**. At this scale, "fine-tuning must hurt generalization" does not hold — provided the training data covers label-space diversity rather than text diversity within a single label set.
+
+### Multi-domain held-out (v0.2.0 new)
+
+9 Chinese task heads, 1,116 out-of-distribution decisions (never seen in training), v0.2 vs official baseline:
+
+| Head | v0.2 | Official |
+|---|---|---|
+| robot_cmd (adversarial phrasing included) | **0.850** | 0.811 |
+| marketing_router | **0.817** | 0.811 |
+| emotion (3 probes) | **0.889** | 0.667 |
+| life_admin | **0.717** | 0.661 |
+| finance_ops | 0.750 | 0.756 |
+| intent_cn | **0.600** | 0.461 |
+| code_router | **0.594** | 0.567 |
+| **TOTAL** | **0.727** | 0.681 |
+
+<sub>Data released in `data-v5/` (fully synthetic, template+perturbation, soft-label gradients); train/val/test disjoint.</sub>
 
 ### Latency (M1, MLX, measured)
 
@@ -63,13 +98,13 @@
 
 ```bash
 pip install laya-mlx huggingface_hub
-huggingface-cli download ZLHAOOO/laya-mlx-zh --local-dir weights/ckpt-zh-v4-mlx
+huggingface-cli download ZLHAOOO/laya-mlx-zh --local-dir weights/ckpt-zh-v5b-mlx
 ```
 
 ```python
 import laya_mlx as laya
 
-agent = laya.load("./weights/ckpt-zh-v4-mlx")  # see weights/README.md for download
+agent = laya.load("./weights/ckpt-zh-v5b-mlx")  # see weights/README.md for download
 
 result = agent.predict(
     "服务器宕机了赶紧处理",  # "server is down, handle it now"

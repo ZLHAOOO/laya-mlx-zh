@@ -1,0 +1,23 @@
+{
+  "pack": "life-admin",
+  "version": 1,
+  "description": "生活管家场景：日程/购物/健康/出行/家务路由 + 打扰判断",
+  "questions": {
+    "route": {
+      "type": "choice",
+      "instructions": "这条生活消息该交给哪个管家技能？",
+      "criteria": {
+        "schedule": "日程安排：约会、会议、提醒",
+        "shopping": "购物消费：想买、下单、退换",
+        "health": "健康：就医、用药、锻炼",
+        "travel": "出行：通勤、订票、路线",
+        "home": "家务：保洁、维修、缴费",
+        "chat": "纯闲聊，不用执行"
+      }
+    },
+    "interrupt": {
+      "type": "noul",
+      "instructions": "这条消息是否需要立刻去办？"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pack": "emotion",
+  "version": 1,
+  "description": "情绪理解场景：是否带情绪/是否需要安抚/是否情绪危机（三问独立判断）",
+  "questions": {
+    "emo": {
+      "type": "noul",
+      "instructions": "这条消息是否带有明显情绪（喜、怒、哀、焦虑）？"
+    },
+    "care": {
+      "type": "noul",
+      "instructions": "这条消息是否需要安抚或共情回应？"
+    },
+    "urgent": {
+      "type": "noul",
+      "instructions": "这条消息是否涉及需要立刻处理的情绪危机？"
+    }
+  }
+}

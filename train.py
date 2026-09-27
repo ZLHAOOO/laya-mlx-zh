@@ -2,7 +2,7 @@
 """laya-zh Phase 2: heads-only 微调训练脚本
 - 冻结 encoder(mmBERT) + act_head, 只训 head/type_emb/scorer (8G M1 可跑)
 - 损失 = soft-CE (strictly proper scoring rule; 有标注场景等价替代官方 RLCD policy gradient)
-  # 升级路径: heads-only 若 val 不达标, 可解冻 encoder (LoRA r=8-16 on q/v, 外部证据足够)
+  # ponytail: heads-only 若 val 不达标(route acc<90%), 升级路径=LoRA on encoder (pip install peft)
 - 产物: 完整 state_dict 存 model.safetensors(自包含), laya-mlx 转换管线可直接吃
 """
 import os, json, math, time, random, argparse
@@ -16,7 +16,7 @@ from huggingface_hub import snapshot_download
 from laya.common import build_model, build_sequence, QTYPES
 from laya.agent import _fix_tokenizer_config
 
-BASE = os.path.dirname(os.path.abspath(__file__))
+BASE = os.path.expanduser("~/.pi/agent/tools/laya-zh")
 CKPT = "convaiinnovations/laya-multilingual"
 QS = {
     "route": {"t": "choice", "ins": "Which category does this message belong to?",
@@ -36,22 +36,56 @@ QS = {
                "crit": {"billing": "invoices, payments, refunds",
                             "technical": "bugs, outages, errors",
                             "sales": "pricing, plans, new purchases"}},
+    # v5: 多标签空间混训（治 #364 实锤的 criteria 塌缩：让头学会读陌生选项而不是背词串）
+    #     主描述与 gen_v5.py 的 QS_V5 一致；训练数据 27% 行携带措辞变体（行内 qs）
+    "code_router": {"t": "choice", "ins": "这条消息该路由给哪个代码类技能？",
+               "crit": {"bugfix": "排查修复：报错、崩溃、异常", "feature": "新功能开发：加功能、改交互",
+                            "refactor": "重构优化：不改行为只改质量", "docs": "文档查询：API 用法、配置说明",
+                            "deploy": "部署运维：构建、发布、环境", "chat": "与代码无关的消息"}},
+    "marketing_router": {"t": "choice", "ins": "这条消息该路由给哪个营销类技能？",
+               "crit": {"content": "内容创作：文案、图文、脚本", "seo": "流量获取：关键词、SEO、投放",
+                            "data": "数据分析：转化、漏斗、复盘", "crm": "客户关系：社群、私聊、跟进",
+                            "brand": "品牌定位：slogan、视觉、调性", "none": "与营销无关的消息"}},
+    "finance_ops": {"t": "choice", "ins": "这条消息该路由给哪个财务类技能？",
+               "crit": {"expense": "报销付款：报销、垫付、转账", "invoice": "发票：开票、收票、整理",
+                            "budget": "预算管理：预算、成本、超支", "recon": "对账核对：账单、流水、差异",
+                            "tax": "税务合规：报税、税率、合规", "none": "与财务无关的消息"}},
+    "life_admin": {"t": "choice", "ins": "这条生活消息该交给哪个管家技能？",
+               "crit": {"schedule": "日程安排：约会、会议、提醒", "shopping": "购物消费：想买、下单、退换",
+                            "health": "健康：就医、用药、锻炼", "travel": "出行：通勤、订票、路线",
+                            "home": "家务：保洁、维修、缴费", "chat": "纯闲聊，不用执行"}},
+    "robot_cmd": {"t": "choice", "ins": "这条指令要求机器人做什么？",
+               "crit": {"faster": "让机器人提速", "slower": "让机器人减速", "stop": "让机器人停下",
+                            "left": "向左侧转向", "right": "向右侧转向", "none": "不是对机器人的运动指令"}},
+    "intent_cn": {"t": "choice", "ins": "这条中文消息的主要意图是什么？",
+               "crit": {"ask": "提问咨询：想知道某事", "do": "请求执行：让助手做某事",
+                            "feedback": "反馈：确认、感谢、抱怨", "chat": "闲聊寒暄",
+                            "spam": "广告推销骚扰", "other": "其他意图"}},
+    "emotion_emo": {"t": "noul", "ins": "这条消息是否带有明显情绪（喜、怒、哀、焦虑）？", "crit": {}},
+    "emotion_care": {"t": "noul", "ins": "这条消息是否需要安抚或共情回应？", "crit": {}},
+    "emotion_urgent": {"t": "noul", "ins": "这条消息是否涉及需要立刻处理的情绪危机？", "crit": {}},
 }
 
 def load_rows(split, train_file="train.jsonl"):
-    """数据加载: train = 主数据 + kw 数据(可选); val/test 单文件。
-    train.jsonl 已含 route/interrupt/priority/relevance/kw_select/ticket 全任务样本。
-    """
+    import glob
+    # v5: 多标签空间混训合并数据；v4: --data 显式指定合并文件列表(避免 glob 双计), 兼容旧 glob 模式
+    if split == "train" and os.path.exists(f"{BASE}/data/train_v5.jsonl") and os.environ.get("LAYA_V5") == "1":
+        return [json.loads(l) for l in open(f"{BASE}/data/train_v5.jsonl")]
+    if split == "val" and os.path.exists(f"{BASE}/data/val_v5.jsonl") and os.environ.get("LAYA_V5") == "1":
+        return [json.loads(l) for l in open(f"{BASE}/data/val_v5.jsonl")]
+    if split == "train" and os.path.exists(f"{BASE}/data/train_v4.jsonl") and os.environ.get("LAYA_V4") == "1":
+        return [json.loads(l) for l in open(f"{BASE}/data/train_v4.jsonl")]
+    if split == "val" and os.path.exists(f"{BASE}/data/val_v4.jsonl") and os.environ.get("LAYA_V4") == "1":
+        return [json.loads(l) for l in open(f"{BASE}/data/val_v4.jsonl")]
     if split == "train":
-        files = [f"{BASE}/data/{train_file}"]
-        kw = f"{BASE}/data/train_kw.jsonl"
-        if os.path.exists(kw):
-            files.append(kw)
         rows = []
-        for f in files:
+        for f in sorted(glob.glob(f"{BASE}/data/train*.jsonl")):
             rows += [json.loads(l) for l in open(f)]
         return rows
-    return [json.loads(l) for l in open(f"{BASE}/data/{split}.jsonl")]
+    rows = []
+    for f in sorted(glob.glob(f"{BASE}/data/{split}*.jsonl")):
+        rows += [json.loads(l) for l in open(f)]
+    return rows
 
 class QDataset(Dataset):
     """每条 state × 3 题摊平成 items: (ids, markers, qtype, target)"""
@@ -59,7 +93,8 @@ class QDataset(Dataset):
         self.items = []
         for r in rows:
             for qname, target in r["labels"].items():
-                q = QS[qname]
+                # v5: 行内 qs 覆盖（criteria 措辞变体，逼模型读语义不背词串）
+                q = r.get("qs", {}).get(qname) or QS[qname]
                 if "q" in r:  # relevance 头：把行内 query 拼进指令
                     q = dict(q)
                     q["ins"] = q["ins"] + " " + r["q"]
